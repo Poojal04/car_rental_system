@@ -1270,7 +1270,10 @@ void customeroptions(vector<Customer>& customers,vector<Car>& cars,string userna
                         cout<<"How many days you want the car for"<<endl;
                         int daysrequired;
                         cin>>daysrequired;
+                        if(daysrequired>0)
                         rent_request("car.txt", carname, 0,username,daysrequired);
+                        else
+                        cout<<"Enter positive value"<<endl;
     }
     else{
         cout<<"This Car has already been rented"<<endl;
