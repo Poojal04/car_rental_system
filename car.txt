@@ -3,4 +3,3 @@ car2,CDE234,Excellent,3000,1,None,0
 car3,DEF345,Good,3500,1,None,0
 car4,GHI456,Damaged,3400,1,None,0
 car5,JKL567,Damaged,3500,1,None,0
-Car6,ABC567,Good,0,1,None,10
